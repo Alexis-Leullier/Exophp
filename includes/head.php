@@ -1,12 +1,11 @@
 <?php
-$local = local_accept_from_http($_SERVER['HTTP_ACCEPT_LANGUAGE']);
-die(var_dump($local));
+$valeurLang = getLang();
 ?>
 
 
 
 <!DOCTYPE html>
-<html lang="<?php echo $locale; ?>" dir="ltr">
+<html lang="<?=$valeurLang?>" dir="ltr">
 <head>
     <meta charset="UTF-8">
     
