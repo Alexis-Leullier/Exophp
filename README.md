@@ -1,1 +1,2 @@
 # Exophp
+Exercice PHP.
